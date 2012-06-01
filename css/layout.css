@@ -1,0 +1,70 @@
+.tail-top{ background-image: url(images/bg_1.jpg);
+ background-position:top center;
+background-repeat: no-repeat;
+
+}
+.col-1, .col-2, .col-3, .col-4{ float:left}
+/*======= width =======*/
+.main{margin:0 auto; text-align:left; width:970px; }
+
+/*======= header =======*/
+#header.home {height:739px;  background:url(images/top.jpg) top center no-repeat}
+#header.home .col-1, #billboard-overlay .col-1{ width:400px; margin-right:110px}
+#header.home .col-2, #billboard-overlay .col-2{ width:417px; text-align:right}
+
+/*======= index.html =======*/
+#page1 #content .row1 .col-1{ width:454px; margin-right:55px}
+#page1 #content .row1 .col-2{ width:350px}
+#page1 #content .row1 .col-3{ width:250px; margin-right:48px}
+#page1 #content .row1 .col-4{ width:252px}
+#page1 #content .row1 .bg{ background:url(images/tail.gif) repeat-y 576px top } 
+#page1 #content .row1 .bg1{ background:url(images/tail.gif) repeat-y 265px top } 
+#page1 #content .row2 .col-1{ width:122px; margin-right:31px}
+#page1 #content .row2 .col-2{ width:284px}
+/*======= index-1.html =======*/
+#page2 #content .row1 .col-1{ width:305px; margin-right:58px}
+#page2 #content .row1 .col-2{ width:549px}
+#page2 #content .row1 .col-3{ width:250px; margin-right:40px}
+#page2 #content .row1 .col-4{ width:252px}
+#page2 #content .row1 .bg{ background:url(images/tail.gif) repeat-y 333px top } 
+#page2 #content .row2 .col-1{ width:560px; margin-right:56px}
+#page2 #content .row2 .col-2{ width:265px}
+/*======= index-2.html =======*/
+#page3 #content .row1 .col-1{ width:560px; margin-right:50px}
+#page3 #content .row1 .col-2{ width:302px}
+#page3 #content .row1 .col-3{ width:274px; margin-right:8px}
+#page3 #content .row1 .col-4{ width:274px}
+#page3 #content .row1 .bg{ background:url(images/tail.gif) repeat-y 576px top } 
+#page3 #content .row2 .col-1{ width:202px; margin-right:28px}
+#page3 #content .row2 .col-2{ width:202px}
+/*======= index-3.html =======*/
+#page4 #content .row1 .col-1{ width:305px; margin-right:58px}
+#page4 #content .row1 .col-2{ width:549px}
+#page4 #content .row1 .col-3{ width:250px; margin-right:40px}
+#page4 #content .row1 .col-4{ width:252px}
+#page4 #content .row1 .bg{ background:url(images/tail.gif) repeat-y 333px top } 
+#page4 #content .row2 .col-1{ width:122px; margin-right:31px}
+#page4 #content .row2 .col-2{ width:294px}
+/*======= index-4.html =======*/
+#page5 #content .row1 .col-1{ width:305px; margin-right:58px}
+#page5 #content .row1 .col-2{ width:549px}
+#page5 #content .row1 .col-3{ width:250px; margin-right:40px}
+#page5 #content .row1 .col-4{ width:252px}
+#page5 #content .row1 .bg{ background:url(images/tail.gif) repeat-y 333px top } 
+#page5 #content .row2 .col-1{ width:120px; margin-right:31px}
+#page5 #content .row2 .col-2{ width:294px}
+#page5 #content .row2 .col-3{ width:578px; margin-right:31px}
+#page5 #content .row2 .col-4{ width:120px; margin-right:0}
+/*======= index-5.html =======*/
+#page6 #content .row1 .col-1{ width:560px; margin-right:50px}
+#page6 #content .row1 .col-2{ width:302px}
+#page6 #content .row1 .col-3{ width:57px; margin-right:0}
+#page6 #content .row1 .col-4{ width:226px}
+#page6 #content .row1 .bg{ background:url(images/tail.gif) repeat-y 576px top } 
+#page6 #content .row2 .col-1{ width:202px; margin-right:28px}
+#page6 #content .row2 .col-2{ width:202px}
+
+/*======= footer =======*/
+#footer { height:79px; }
+
+

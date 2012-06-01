@@ -1,0 +1,58 @@
+#pad {height:135px;}
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssmenus.co.uk
+Copyright (c) 2009- Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+#menu1 {padding:0; margin-top:12px;  list-style:none;  position:relative; z-index:500; }
+#menu1 li {float:left; margin-right:1px;}
+#menu1 li a {display:block; float:left; text-decoration:none; width:80%; }
+
+
+#menu1 table {border-collapse:collapse; width:0; height:0; position:absolute; top:0; left:0;}
+
+/* Default link styling */
+
+/* Style the list OR link hover. Depends on which browser is used */
+
+#menu1 li a:hover {z-index:200; position:relative;width:80%; }
+#menu1 li:hover {position:relative; z-index:200;}
+
+#menu1 li:hover > a {background:url(../images/bg_menu-act.gif) top left repeat-x;}
+#menu1 li:hover > a.sub {background:url(../images/bg_menu-act.gif) top left repeat-x;}
+
+#menu1 li.current a {color:#fff; background:#3e3e3e;}
+
+#menu1 li a.sub {background: url(../images/down-arrow.gif) no-repeat right center;}
+#menu1 li.current a.sub {color:#fff; background:#3e3e3e url(../images/down-arrow.gif) no-repeat right center;}
+
+#menu1 :hover ul {left:0; top:35px;}
+
+/* keep the 'next' level invisible by placing it off screen. */
+#menu1 ul, 
+#menu1 :hover ul ul {position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+#menu1 :hover ul :hover ul
+{left:120px; top:-1px; background:url(../images/bg_menu-act.gif) top left repeat-x; white-space:nowrap;  z-index:200; height:auto; width:200px;}
+
+#menu1 :hover ul li {margin:0; border-top:1px solid #666;}
+#menu1 :hover ul li a { padding:0; text-indent:10px; background:url(../images/bg_menu-act.gif) top left repeat-x;}
+#menu1 :hover ul li a.fly {background:url(../images/bg_menu-act.gif) top left repeat-x; width:200px;}
+
+#menu1 :hover ul :hover {background:url(../images/bg_menu-act.gif) top left repeat-x; width:200px;}
+#menu1 :hover ul :hover a.fly {background:url(../images/bg_menu-act.gif) top left repeat-x; width:200px;}
+
+#menu1 :hover ul li.currentsub a {background:url(../images/bg_menu-act.gif) top left repeat-x;}
+#menu1 :hover ul li.currentsub a.fly {background:#595959 url(../images/right-arrow.gif) no-repeat right center; color:#fff;}
+
+#menu1 :hover ul :hover ul li a {width:180px; padding:0; text-indent:10px; background:#3e3e3e; color:#ccc;}
+#menu1 :hover ul :hover ul :hover {background:url(../images/bg_menu-act.gif) top left repeat-x;}
+
+#menu1 :hover ul :hover ul li.currentfly a,
+#menu1 :hover ul :hover ul li.currentfly a:hover {background:url(../images/bg_menu-act.gif) top left repeat-x;}
+
+.top.link {background: none;}
